@@ -1,5 +1,6 @@
 import pandas as pd
 df = pd.read_csv("attendance.csv")
+#ATTENDANCE. CSV is provided in my repository https://github.com/Siddhesh-Zalte/Bajaj-Finserv
 
 
 df["attendance_date"] = pd.to_datetime(df["attendance_date"])
